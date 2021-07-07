@@ -1,0 +1,60 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-family:'Times New Roman', Times, serif; 
+    font-size:22px;
+    text-align:center;
+}
+
+.heading_div{
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    font-family:'Times New Roman', Times, serif; 
+    align-items: center;
+    font-size:19px;
+    width:100%;
+}
+
+.heading_div2{
+    font-size: 19px ;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.result_para_tag{
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+body{
+  font-family:'Times New Roman', Times, serif; 
+}
+
+.copyright_footer{
+  font-family:'Times New Roman', Times, serif; 
+  position:fixed;
+  color:white; 
+  bottom:0; 
+  background-color:grey; 
+  line-height:3;
+  text-align:center;
+  width:100%;
+  font-size:22px;
+}
+
+canvas{
+  border:5px;
+  border-radius:20px;
+  margin-top:130px; 
+  animation-name:saanika; 
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes saanika{ 
+  from {box-shadow:5px 5px 5px red;}
+  to {box-shadow:5px 5px 5px blue;}  
+}
